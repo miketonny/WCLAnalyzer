@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "WCLAnalyser", "WCLAnalyser\WCLAnalyser.esproj", "{ABDFD211-3635-4CD7-A986-C35BB54C93BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCLAPI", "WCLAPI\WCLAPI.csproj", "{A0FCFE78-B675-4DBA-BB21-825D0205BEAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDFD211-3635-4CD7-A986-C35BB54C93BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDFD211-3635-4CD7-A986-C35BB54C93BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDFD211-3635-4CD7-A986-C35BB54C93BB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ABDFD211-3635-4CD7-A986-C35BB54C93BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDFD211-3635-4CD7-A986-C35BB54C93BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDFD211-3635-4CD7-A986-C35BB54C93BB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A0FCFE78-B675-4DBA-BB21-825D0205BEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FCFE78-B675-4DBA-BB21-825D0205BEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FCFE78-B675-4DBA-BB21-825D0205BEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FCFE78-B675-4DBA-BB21-825D0205BEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FB0273D-C14C-4C70-BEFE-191C7893AA14}
+	EndGlobalSection
+EndGlobal

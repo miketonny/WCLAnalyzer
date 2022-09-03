@@ -1,0 +1,77 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "WCLAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/PlayerStats": {
+      "get": {
+        "tags": [
+          "PlayerStats"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "code",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/PlayerStats"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "PlayerStats": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "utilPotUsed": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "manaPotUsed": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "scrollUsed": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "wcl": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "food": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "encounters": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
